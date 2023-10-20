@@ -1,0 +1,211 @@
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		
+		nav {
+			background-color: #e2e2e2;
+			padding: 10px;
+			text-align: center;
+		}
+		nav a {
+			display: inline-block;
+            padding: 20px;
+			color: #0e0e0e;
+			text-decoration: none;
+			font-weight: bold;
+            font-size: 20px;
+		}
+
+        nav a:hover {
+			color: #00a6f3;
+		}
+
+        .active{
+            color: #2e7596;
+        }
+
+        .auca{
+            float: left;
+            font-size: 30px;
+        }
+
+
+        .home{
+            background-image: url(images/bg-main.jpg);
+            background-size: cover;
+        }
+
+        .dep{
+            background-color: blue;
+        }
+
+        .table table{
+            margin: 150px auto;
+            background-color: white;
+            border: 2px solid black;
+        }
+
+        .table table td,th{
+            margin: 150px auto;
+            background-color: white;
+            padding: 25px; 
+        }
+
+        .table table th{
+            margin: 150px auto;
+            background-color: rgb(26, 89, 141);
+            color: #f2f2f2;
+            padding: 25px; 
+            font-size: 20px;
+        }
+
+
+        div.content {
+            margin: 200px auto;
+            border-radius: 5px;
+            padding: 20px;
+            width: 600px;
+          }
+        
+
+        div.mission {
+            border-radius: 5px;
+            background-color: #e9e9e9;
+            padding: 20px;
+            margin-bottom: 40px;
+            width: 600px;
+          }
+        
+          div.vision {
+            border-radius: 5px;
+            background-color: #e9e9e9;
+            padding: 20px;
+            width: 600px;
+          }
+
+          em{
+            color: yellow;
+          }
+        div.info {
+            margin: 100px auto;
+            border-radius: 5px;
+            background-color: #e9e9e9;
+            padding: 20px;
+            width: 600px;
+          }
+
+          div.man {
+            margin: 100px auto;
+            border-radius: 5px;
+            background-color: #e9e9e9;
+            padding: 20px;
+            width: 600px;
+          }
+
+          div.man h1{
+            font-size: 40px;
+          }
+
+          div.info a{
+            text-decoration: none;
+            color: rgb(230, 0, 0);
+            font-size: 20px;
+          }
+
+          div.info {
+            font-size: 25px;
+          }
+
+        /* Gallery codes */
+
+        div.maingal{
+            margin:100px 100px;
+        }
+
+        div.gallery {
+            margin: 10px;
+            float: left;
+            display: block;
+            width: 400px;
+          }
+        
+          
+          div.gallery img {
+            width: 100%;
+            height: auto;
+          }
+          
+          div.desc {
+            padding: 10px;
+            text-align: center;
+            background-color: #cecece;
+          }
+
+
+          /* Form codes */
+
+          input[type=text],input[type=email], textarea {
+            width: 100%;
+            padding: 15px 20px;
+            margin: 8px 0;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+          }
+          
+          input[type=submit] {
+            width: 100%;
+            background-color: #4c98af;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            font-size: 15px;
+            font-weight: bolder;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: white;
+            color: #4c98af;
+          }
+          
+          div.form {
+            margin: 100px auto;
+            border-radius: 5px;
+            background-color: #e9e9e9;
+            padding: 15px;
+            width: 600px;
+          }
+
+
+          /* Footer codes */
+        .footer_section {
+            font-weight: 500;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            padding: 20px;
+            background-color: #101010;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+          }
+          
+          .footer_section p {
+            color: rgba(197, 197, 197, 0.932);
+            margin: 0;
+            text-align: center;
+          }
+          
+          .footer_section a {
+            color: rgba(254, 254, 255, 0.7);
+            text-decoration: none;
+          }
